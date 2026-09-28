@@ -25,8 +25,9 @@ import txRaw from '../../data/states/tx.json';
 import coRaw from '../../data/states/co.json';
 import ncRaw from '../../data/states/nc.json';
 import flRaw from '../../data/states/fl.json';
+import flRaw from '../../data/states/ga.json';
 
-import fortWorthRaw from '../../data/localities/fort-worth-tx.json';
+import fortWorthRaw from '../../data/localities/atlanta-ga.json';
 import coloradoSpringsRaw from '../../data/localities/colorado-springs-co.json';
 import charlotteRaw from '../../data/localities/charlotte-nc.json';
 import tampaRaw from '../../data/localities/tampa-fl.json';
