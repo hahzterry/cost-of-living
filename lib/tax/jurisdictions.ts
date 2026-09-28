@@ -27,7 +27,7 @@ import ncRaw from '../../data/states/nc.json';
 import flRaw from '../../data/states/fl.json';
 import flRaw from '../../data/states/ga.json';
 
-import fortWorthRaw from '../../data/localities/atlanta-ga.json';
+import atlanta from '../../data/localities/atlanta-ga.json';
 import coloradoSpringsRaw from '../../data/localities/colorado-springs-co.json';
 import charlotteRaw from '../../data/localities/charlotte-nc.json';
 import tampaRaw from '../../data/localities/tampa-fl.json';
@@ -40,12 +40,13 @@ export const STATES: Record<string, StateProfile> = {
   CO: parseState(coRaw, 'data/states/co.json') as StateProfile,
   NC: parseState(ncRaw, 'data/states/nc.json') as StateProfile,
   FL: parseState(flRaw, 'data/states/fl.json') as StateProfile,
+  GA: parseState(flRaw, 'data/states/ga.json') as StateProfile,
 };
 
 export const LOCALITIES: Record<string, LocalityProfile> = {
-  'fort-worth-tx': parseLocality(
-    fortWorthRaw,
-    'data/localities/fort-worth-tx.json',
+  'atlanta-ga': parseLocality(
+    atlanta,
+    'data/localities/atlanta-ga.json',
   ) as LocalityProfile,
   'colorado-springs-co': parseLocality(
     coloradoSpringsRaw,
