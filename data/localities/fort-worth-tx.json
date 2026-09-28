@@ -44,7 +44,7 @@
     "source": "https://comptroller.texas.gov/taxes/sales/city.php",
     "effectiveDate": "2026-01-01",
     "verifiedOn": null,
-    "note": "TODO: total should be 2.00% (the cap); component split unverified."
+    "note": "Total 2.00% (Texas local cap): 1.00% city + 0.50% Crime Control District + 0.50% Trinity Metro."
   },
   "propertyLevies": {
     "value": [
@@ -103,7 +103,7 @@
   },
   "supplementalDistricts": {
     "value": [],
-    "source": "manual",
+    "source": "https://www.tad.org/property-search/",
     "effectiveDate": "2026-01-01",
     "verifiedOn": null,
     "note": "PID/MUD districts are PARCEL-SPECIFIC. Common in newer north Fort Worth developments, can add 0.5–1%+, and appear in NO county average. Must be entered per property."
