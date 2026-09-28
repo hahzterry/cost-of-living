@@ -1,0 +1,85 @@
+{
+  "id": "fort-worth-tx",
+  "city": "Fort Worth",
+  "county": "Tarrant",
+  "state": "TX",
+  "localIncomeTax": {
+    "value": {
+      "kind": "none"
+    },
+    "source": "https://comptroller.texas.gov/taxes/publications/96-259.php",
+    "effectiveDate": "1900-01-01",
+    "verifiedOn": null
+  },
+  "localSalesTax": {
+    "value": [
+      {
+        "jurisdiction": "City of Fort Worth local sales tax",
+        "rate": 0.01,
+        "exemptCategories": [
+          "groceries",
+          "prescriptionDrugs"
+        ],
+        "perItemTaxableCap": null
+      }
+    ],
+    "source": "https://comptroller.texas.gov/taxes/publications/98-490.php",
+    "effectiveDate": "2026-01-01",
+    "verifiedOn": null,
+    "note": "Fort Worth is subject to Texas state and local sales taxes. Additional local taxing jurisdictions can affect the combined rate depending on the exact address."
+  },
+  "propertyLevies": {
+    "value": [
+      {
+        "jurisdiction": "Tarrant County",
+        "levyClass": "county",
+        "rate": {
+          "value": null,
+          "unit": "mills"
+        }
+      },
+      {
+        "jurisdiction": "Fort Worth Independent School District",
+        "levyClass": "school",
+        "rate": {
+          "value": null,
+          "unit": "mills"
+        }
+      },
+      {
+        "jurisdiction": "City of Fort Worth",
+        "levyClass": "municipal",
+        "rate": {
+          "value": null,
+          "unit": "mills"
+        }
+      },
+      {
+        "jurisdiction": "Tarrant County special districts",
+        "levyClass": "special",
+        "rate": {
+          "value": null,
+          "unit": "mills"
+        }
+      }
+    ],
+    "source": "https://www.tad.org/",
+    "effectiveDate": "2026-01-01",
+    "verifiedOn": null,
+    "note": "Property tax rates vary by taxing unit and property location. Exact Fort Worth property-tax calculations should use the parcel's applicable taxing jurisdictions and current certified rates."
+  },
+  "localExemptions": {
+    "value": [],
+    "source": "https://www.tad.org/",
+    "effectiveDate": "2026-01-01",
+    "verifiedOn": null,
+    "note": "Homestead, senior, disability, and other exemptions may apply depending on taxpayer and property eligibility."
+  },
+  "supplementalDistricts": {
+    "value": [],
+    "source": "manual",
+    "effectiveDate": "2026-01-01",
+    "verifiedOn": null,
+    "note": "Additional taxing units and special districts can apply to individual properties. Parcel-specific verification is required."
+  }
+}
