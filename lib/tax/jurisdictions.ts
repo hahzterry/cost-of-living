@@ -7,7 +7,7 @@
  * Open the matching JSON file in /data and change the number:
  *
  *   data/states/tx.json                  ← statewide rules
- *   data/localities/fort-worth-tx.json   ← local levies and sales tax
+ *   data/localities/atlanta-ga.json      ← local levies and sales tax
  *
  * Then set that field's `verifiedOn` to today's date so the UI stops warning.
  *
@@ -25,7 +25,7 @@ import txRaw from '../../data/states/tx.json';
 import coRaw from '../../data/states/co.json';
 import ncRaw from '../../data/states/nc.json';
 import flRaw from '../../data/states/fl.json';
-import flRaw from '../../data/states/ga.json';
+import gaRaw from '../../data/states/ga.json';
 
 import atlanta from '../../data/localities/atlanta-ga.json';
 import coloradoSpringsRaw from '../../data/localities/colorado-springs-co.json';
@@ -40,7 +40,7 @@ export const STATES: Record<string, StateProfile> = {
   CO: parseState(coRaw, 'data/states/co.json') as StateProfile,
   NC: parseState(ncRaw, 'data/states/nc.json') as StateProfile,
   FL: parseState(flRaw, 'data/states/fl.json') as StateProfile,
-  GA: parseState(flRaw, 'data/states/ga.json') as StateProfile,
+  GA: parseState(gaRaw, 'data/states/ga.json') as StateProfile,
 };
 
 export const LOCALITIES: Record<string, LocalityProfile> = {
