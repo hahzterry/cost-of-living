@@ -1,0 +1,85 @@
+{
+  "code": "GA",
+  "name": "Georgia",
+  "incomeTax": {
+    "value": {
+      "kind": "flat",
+      "rate": 0.0499
+    },
+    "source": "https://gsfic.georgia.gov/document/document/gastate-final-os-26abc/download",
+    "effectiveDate": "2026-01-01",
+    "verifiedOn": "2026-09-28",
+    "note": "Flat rate reduced from 5.19% to 4.99% for tax year 2026 under HB 463. Scheduled contingent reductions of 0.125 percentage points until reaching 3.99%."
+  },
+  "propertyFramework": {
+    "value": {
+      "assessment": {
+        "residentialAssessmentRatio": 0.4,
+        "revaluationCycleYears": null
+      },
+      "valueCap": {
+        "label": "Homestead exemption (local option, no statewide annual cap)",
+        "maxAnnualIncrease": null,
+        "requiresHomestead": true,
+        "portable": false,
+        "resetsOnTransfer": true
+      },
+      "statewideExemptions": [
+        {
+          "id": "ga-regular-school",
+          "label": "Regular school homestead exemption",
+          "amount": {
+            "kind": "fixed",
+            "amount": 10000
+          },
+          "appliesTo": ["school"],
+          "requiresHomestead": true,
+          "eligibility": "general",
+          "note": "Amount varies by county; $10,000 is typical (DeKalb, Gwinnett)."
+        },
+        {
+          "id": "ga-regular-county",
+          "label": "Regular county homestead exemption",
+          "amount": {
+            "kind": "fixed",
+            "amount": 10000
+          },
+          "appliesTo": ["county"],
+          "requiresHomestead": true,
+          "eligibility": "general"
+        }
+      ]
+    },
+    "source": "https://dekalbtax.org/wp-content/uploads/homestead-exemption-information.pdf",
+    "effectiveDate": "2026-01-01",
+    "verifiedOn": null,
+    "note": "TODO: UNVERIFIED. Georgia does not have a statewide appraisal cap like Texas. Homestead exemptions are county- and city-specific. Assessment ratio is 40% of fair market value. No fixed statewide revaluation schedule."
+  },
+  "stateSalesTax": {
+    "value": {
+      "jurisdiction": "State of Georgia",
+      "rate": 0.04,
+      "exemptCategories": [
+        "prescriptionDrugs"
+      ]
+    },
+    "source": "https://www.tax-rates.org/georgia/sales-tax",
+    "effectiveDate": "2026-01-01",
+    "verifiedOn": "2026-09-28",
+    "note": "Groceries are exempt from the 4% state tax but remain subject to local sales taxes. Local add-ons can push combined rates to 8%–9%."
+  },
+  "vehicle": {
+    "value": {
+      "tax": {
+        "kind": "tavt",
+        "oneTimeRate": 0.07
+      },
+      "annualRegistration": 20,
+      "oneTimeTitleAndFees": 18
+    },
+    "source": "https://dekalbtax.org/motor-vehicles/vehicle-taxes/",
+    "effectiveDate": "2026-01-01",
+    "verifiedOn": null,
+    "note": "TODO: UNVERIFIED. Title Ad Valorem Tax (TAVT) is a one-time 7% tax on fair market value, replacing both sales tax and annual ad valorem tax. New residents pay 3%. Fee amounts unverified."
+  }
+}
