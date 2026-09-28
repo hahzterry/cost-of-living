@@ -1,0 +1,105 @@
+{
+  "id": "atlanta-ga",
+  "city": "Atlanta",
+  "county": "Fulton",
+  "state": "GA",
+  "localIncomeTax": {
+    "value": {
+      "kind": "flat",
+      "rate": 0.0499
+    },
+    "source": "https://senatepress.net/guest-editorial-walker-keeping-the-american-dream-within-reach.html#more-342409",
+    "effectiveDate": "2026-01-01",
+    "verifiedOn": "2026-09-28",
+    "note": "Georgia state flat income tax rate. House Bill 463 lowered the rate from 5.19% to 4.99% for 2026, with a path to 3.99%."
+  },
+  "localSalesTax": {
+    "value": [
+      {
+        "jurisdiction": "State of Georgia",
+        "rate": 0.04,
+        "exemptCategories": [
+          "groceries",
+          "prescriptionDrugs"
+        ]
+      }
+    ],
+    "source": "https://dor.georgia.gov/document/document/effective-january-1-2026-through-march-31-2026-tsplost-exempt-only/download#1#1",
+    "effectiveDate": "2026-01-01",
+    "verifiedOn": null,
+    "note": "TODO: State rate confirmed at 4%. Local county/city/MARTA rates (Fulton County portion) not yet verified. See Georgia DOR rate chart for full Atlanta jurisdiction rate."
+  },
+  "propertyLevies": {
+    "value": [
+      {
+        "jurisdiction": "Atlanta Public Schools",
+        "levyClass": "school",
+        "rate": {
+          "value": 20.5,
+          "unit": "perThousand"
+        }
+      },
+      {
+        "jurisdiction": "City of Atlanta",
+        "levyClass": "municipal",
+        "rate": {
+          "value": 11.4,
+          "unit": "perThousand"
+        }
+      },
+      {
+        "jurisdiction": "Fulton County",
+        "levyClass": "county",
+        "rate": {
+          "value": 8.87,
+          "unit": "perThousand"
+        }
+      }
+    ],
+    "source": "https://www.atlantaga.gov/home/showpublisheddocument/63928/638675522034970000#1#1",
+    "effectiveDate": "2026-01-01",
+    "verifiedOn": null,
+    "note": "TODO: UNVERIFIED. Atlanta city rate (11.4 mills) is sum of Operating (8.52) + Bonds (1.88) + Parks (1.00). Fulton County is FY2026 proposed rate. APS rate is 20.5 mills (maintained since 2022). Special Service District (Beltline commercial, 2.0 mills) applies to specific taxpayers only."
+  },
+  "localExemptions": {
+    "value": [
+      {
+        "name": "City of Atlanta Basic Homestead Exemption",
+        "amount": 30000,
+        "appliesTo": [
+          "cityOperating",
+          "citySchoolOperating",
+          "cityParks",
+          "stateQBE"
+        ],
+        "eligibility": "Legal resident of the City of Atlanta; must own and occupy home as of January 1."
+      },
+      {
+        "name": "Atlanta Public Schools Homestead Exemption",
+        "amount": 50000,
+        "appliesTo": [
+          "schoolBond",
+          "schoolOperating"
+        ],
+        "eligibility": "Reduces assessed value for APS taxes. May be combined with other APS exemptions."
+      }
+    ],
+    "source": "https://www.atlantaga.gov/home/showpublisheddocument/63928/638675522034970000#1#1",
+    "effectiveDate": "2026-01-01",
+    "verifiedOn": null,
+    "note": "TODO: City of Atlanta Base Freeze Exemption caps annual value increase at 2.6%. Additional senior/disability exemptions exist with income limits. Fulton County School District (outside APS) has separate new exemptions (25%/50% for age 65/70)."
+  },
+  "supplementalDistricts": {
+    "value": [
+      {
+        "name": "Atlanta Beltline Special Service District",
+        "type": "TAD",
+        "rate": 2.0
+      }
+    ],
+    "source": "https://www.atlantaga.gov/home/showpublisheddocument/63928/638675522034970000#1#1",
+    "effectiveDate": "2026-01-01",
+    "verifiedOn": null,
+    "note": "Special Service District levy (2.00 mills) applies to commercial projects in the Atlanta Beltline district. Numerous Tax Allocation Districts (TADs) exist (Atlantic Station, Beltline, Stadium, etc.) and are PARCEL-SPECIFIC. Check individual property."
+  }
+}
