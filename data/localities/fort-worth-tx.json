@@ -102,10 +102,10 @@
     "note": "TODO: Fort Worth and Tarrant County each may adopt an optional 1–20% homestead exemption. Confirm and add."
   },
   "supplementalDistricts": {
-    "value": [],
-    "source": "https://www.tad.org/property-search/",
-    "effectiveDate": "2026-01-01",
-    "verifiedOn": null,
-    "note": "PID/MUD districts are PARCEL-SPECIFIC. Common in newer north Fort Worth developments, can add 0.5–1%+, and appear in NO county average. Must be entered per property."
-  }
+  "value": [],
+  "source": "https://www.tad.org/",
+  "effectiveDate": "2026-01-01",
+  "verifiedOn": null,
+  "note": "PID/MUD districts are PARCEL-SPECIFIC. Common in newer north Fort Worth developments, can add 0.5–1%+, and appear in NO county average. Must be entered per property."
+}
 }
